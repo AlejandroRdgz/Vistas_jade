@@ -1,0 +1,15 @@
+extends ./layout.jade
+block contenido
+
+  div(align="center")
+    h1 Iniciar sesion
+      form(class="form-horizontal"  role="form" )
+        div(class="form-group"  )
+          label(for="email")
+            input(type="email" class="form-control" id="email" placeholder="Ingrese email")
+
+        div(class="form-group" )
+          label(for="pwd")
+            input(type="password" class="form-control" id="pwd" placeholder="Ingrese contrasena")
+
+    input(type="submit" value="Iniciar sesion" class="btn btn-primary")
